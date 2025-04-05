@@ -1,3 +1,3 @@
 # html-css
 
-# This is the HTMS & CSS course Materials 
+This is the HTMS & CSS course Materials 
