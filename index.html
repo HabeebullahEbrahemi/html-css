@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Audio-Video</title>
+</head>
+<body>
+
+    <!-- Page Heading -->
+    <h1>Photo & Video Gallery</h1>
+
+    <!-- Displaying two images side by side -->
+    <img src="Media/2.jpg" alt="My photo" width="400" title="A Beautiful Scene">
+    <img src="Media/1.jpg" alt="My photo" width="400" title="A Beautiful Scene">
+    <br>
+
+    <!-- Audio player with a fallback message -->
+    <audio controls>
+        <source src="Media/simple_thing.mp3" type="audio/mpeg">
+        Your browser does not support this audio file.
+    </audio>
+
+    <!-- First video player -->
+    <video controls width="500">
+        <source src="Media/v1.mp4" type="video/mp4">
+        Your browser does not support this video file.
+    </video>
+    <br>
+
+    <!-- Second video player with all major attributes  and this is anowther way to add videos-->
+    <video 
+        src="Media/v2.mp4"      
+        width="400"                  
+        controls               
+        autoplay                
+        muted                   
+        loop                    
+        preload="auto"          
+        poster="Media/3.jpg" 
+        playsinline             
+    >
+        Your browser does not support this video file.
+    </video>
+
+   <!-- src="Media/v2.mp4"       Path to the video file -->
+   <!-- width="800"              Width of the video player -->
+   <!-- height="450"             Height of the video player -->
+    <!--controls                 Displays video controls like play/pause -->
+    <!--autoplay                 Starts playing automatically when page loads -->
+    <!--muted                    Mutes audio (required for autoplay to work in most browsers) -->
+    <!--loop                     Repeats the video after it ends -->
+    <!--preload="auto"           Preloads the video (options: none, metadata, auto) -->
+    <!--poster="Media/3.jpg"     Displays this image before the video plays -->
+    <!--playsinline              Plays inline on mobile instead of fullscreen -->
+
+</body>
+</html>
