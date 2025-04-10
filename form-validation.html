@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation Example</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; padding: 40px;">
+
+  <!-- Header Section -->
+  <h1 style="text-align: center; color: #333;">Registration Form</h1>
+
+  <!-- Form Start -->
+  <form action="#" method="post" style="background-color: #fff; padding: 20px; border-radius: 8px; max-width: 500px; margin: 0 auto; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+
+    <!-- Name Field -->
+    <label for="name" style="display: block; margin-bottom: 5px;">Full Name:</label>
+    <input type="text" id="name" name="name" required minlength="3" maxlength="50"
+      style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+
+    <!-- Email Field -->
+    <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+    <input type="email" id="email" name="email" required
+      style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+
+    <!-- Password Field -->
+    <label for="password" style="display: block; margin-bottom: 5px;">Password:</label>
+    <input type="password" id="password" name="password" required minlength="6"
+      style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+
+    <!-- Age Field -->
+    <label for="age" style="display: block; margin-bottom: 5px;">Age:</label>
+    <input type="number" id="age" name="age" min="18" max="100"
+      style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+
+    <!-- Website Field -->
+    <label for="website" style="display: block; margin-bottom: 5px;">Website (Optional):</label>
+    <input type="url" id="website" name="website"
+      style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register"
+      style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer;">
+
+  </form>
+  <!-- Form End -->
+
+</body>
+</html>
