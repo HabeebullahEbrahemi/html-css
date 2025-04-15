@@ -1,0 +1,62 @@
+/* Id selector */
+#main-title{
+   color: darkblue;
+   font-size: 28px;
+   text-align: center; 
+   font-family: 'Courier New', Courier, monospace;
+}
+/*class selector*/
+.intro{
+    background-color: #f0f8ff;
+    padding: 10px;
+}
+.highlight{
+    color: white;
+    background-color: #ff6347;
+    padding: 10px;
+    font-weight: bold;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+/*Attribute Selector*/
+a[href^="https:"] {
+    color: green;
+    
+}
+a[href^="mailto:"] {
+    color: darkred;
+    font-style: italic;
+}
+.importan{
+    color: seagreen;
+    font-weight: bold;
+}
+#submit-btn {
+    background-color: #07c;
+    columns: white;
+    padding: 10;
+    border: none;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    background-color: #4daef3;
+}
+input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    }
+    
+ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+      
+li {
+        display: block;
+        margin-right: 15px;
+        font-weight: bold;
+    }
+
